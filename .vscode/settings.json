@@ -1,5 +1,5 @@
 {
-    "go.formatTool": "goimports",
+    "go.formatTool": "default",
     "go.lintOnSave": "package",
     "go.vetOnSave": "package",
     "go.useLanguageServer": true,
@@ -37,5 +37,7 @@
     "go.coverShowCounts": true,
     "go.testOnSave": false,
     "go.testFlags": [],
-    "go.lintTool": "golint"
+    "go.lintTool": "golangci-lint",
+    "go.gopath": "C:\\projects",
+    "go.inlayHints.constantValues": true
 }
