@@ -34,6 +34,7 @@ func isPalindromeInt32(x int) bool {
 		px32 = px32*10 + x32%10
 		x32 /= 10
 	}
+	fmt.Println(px32)
 	return px32 == int32(x)
 }
 
@@ -47,5 +48,6 @@ func isPalindromeInt64(x int) bool {
 		px64 = px64*10 + x64%10
 		x64 /= 10
 	}
+	fmt.Println(px64)
 	return px64 == int64(x)
 }
