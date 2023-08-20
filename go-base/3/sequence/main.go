@@ -10,6 +10,9 @@ func main() {
 	i4 := i2 + i3 //使用运算表达式赋值
 	i3 *= i4      //使用运算表达式赋值
 	fmt.Println(i3, i4)
-	const ci1 int = 13 //声明常量，无法
+	const ci1 int = 13 //声明常量，无法变更
 	fmt.Println(ci1)
+
+	x, y, z := 100, 101, 102 //多返回值赋值
+	fmt.Println(x, y, z)
 }
